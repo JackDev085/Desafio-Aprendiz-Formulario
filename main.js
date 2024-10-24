@@ -44,7 +44,7 @@ function isEmailValid(email) {
 }
 //função que valida senha
 function validatePassword(password, minDigits) {
-    if  (password.length < minDigits) {
+    if (password.length >= minDigits) {
         return true;
     } else {
         return false;
